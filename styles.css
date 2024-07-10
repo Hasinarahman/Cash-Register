@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(61, 16, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.cash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(250, 246, 246);
+  width: 92%;
+  font-size: 12px;
+  box-shadow: 1px 1px 1px 1px rgb(240, 239, 239);
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 10px;
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#cash {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: rgb(68, 4, 4);
+  box-shadow:  10px 10px 50px black;
+  border-radius: 15px;
+}
+
+#change-due {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 75%;
+  font-size: 15px;
+}
+
+#purchase-btn {
+  box-shadow: 10px 10px 50px black;
+  padding: 5px 15px;
+  letter-spacing: 1px;
+  background-color: rgb(68, 4, 4);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+  color: aliceblue;
+}
+
+@media (min-width: 700px) {
+  body {
+    height: 100vh;
+    padding: 50px;
+  }
+
+  .box {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  #cash {
+    padding: 14px 20px;
+    width: 70%;
+  }
+}
+
+@media (min-width: 900px) {
+  .box {
+    padding: 50px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  #purchase-btn {
+    font-size: 16px;
+  }
+}
