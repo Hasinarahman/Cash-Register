@@ -22,8 +22,6 @@ body {
   background-color: rgb(250, 246, 246);
   width: 92%;
   font-size: 12px;
-  box-shadow: 1px 1px 1px 1px rgb(240, 239, 239);
-  color: aliceblue;
 }
 
 h1 {
@@ -43,6 +41,7 @@ h2 {
   background-color: rgb(68, 4, 4);
   box-shadow:  10px 10px 50px black;
   border-radius: 15px;
+  color: aliceblue;
 }
 
 #change-due {
