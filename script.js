@@ -88,4 +88,3 @@ function checkRegister() {
 }
 purchaseBtn.addEventListener('click', checkRegister);
 
-return;
