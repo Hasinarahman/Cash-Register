@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  
 }
 
 .cash {
@@ -39,7 +38,7 @@ h2 {
   padding: 10px 20px;
   margin: 10px;
   background-color: rgb(68, 4, 4);
-  box-shadow:  10px 10px 50px black;
+  box-shadow: 10px 10px 10px black;
   border-radius: 15px;
   color: aliceblue;
 }
