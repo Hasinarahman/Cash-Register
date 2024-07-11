@@ -87,4 +87,3 @@ function checkRegister() {
   return formatResults(result.status, result.change);
 }
 purchaseBtn.addEventListener('click', checkRegister);
-
