@@ -54,8 +54,7 @@ cash.addEventListener('keydown', (e) => {
 
 ## Demo 📸
 
-
-
+![cash register](https://github.com/Hasinarahman/Cash-Register/assets/168626170/fb501b80-35bf-4c3d-aef3-0afeb59081c7)
 
 ## Technologies Used 🛠️
 
